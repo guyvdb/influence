@@ -10,20 +10,25 @@ set(SOURCES
   private/tx.c
   private/vertex.c
   private/edge.c
-  private/page.c
+  private/cache.c
   private/store.c
+  private/ident.c
+  private/scan.c
+  private/id.c
   )
 
 # List of includes
-set(INCLUDES
-  public/graph_types.h
+set(INCLUDES  
   public/graph.h
   public/tx.h
   public/vertex.h
   public/edge.h
 
-  private/page.h
+  private/cache.h
   private/store.h
+  private/ident.h
+  private/scan.h
+  private/id.h
   )
 
 #------------------------------------------------------------------------
